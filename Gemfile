@@ -14,7 +14,7 @@ group :production do
 end
 
 gem 'devise', '~> 1.4.3'
-
+gem 'twitter-bootstrap-rails'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -23,9 +23,7 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
   gem 'dynamic_form'
   gem 'less-rails'
-  gem 'twitter-bootstrap-rails'
   gem 'angularjs-rails'
-
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer', :platforms => :ruby
 
